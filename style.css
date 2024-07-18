@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
+*{
+    margin-left:0;
+    margin-right: 0;
+}
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -140,15 +143,21 @@ body {
 
 /* main section */
 
-main{
+/* main{
     width:65.25rem;
     height: 28.18rem;
     margin: 0 auto;
     margin-top: 6rem;
     
-}
+} */
 
 /* change habit section */
+.habit, .run, .bmi-content{
+    width:65.25rem;
+    height: 28.18rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
 .habit-content{
     width:42rem;
     height: 7.5rem;
@@ -221,6 +230,104 @@ main{
     border-radius: 18px;
 background: url(4);
 }
+
+/* bmi section */
+.bmi-about{
+    width:41.93rem;
+    height:7.43rem;
+    margin:0 auto;
+}
+.bmi-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin:1rem;
+    margin-top: 4rem;
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1rem;
+}
+.bmi-calc{
+    margin-top: 5rem;
+    width:100%;
+    height:30.43rem;
+    background-color:rgb(34, 34, 34);
+    /* padding-top: 0.5rem; */   
+}
+
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding:0.5rem 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding:0.5rem 1rem;
+    text-align: start; 
+}
+.bmi-chart{
+    width: 50%;
+    
+}
+.chart-name{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom:1rem;
+    
+}
+.bmi-table{
+    margin-top: 5rem;
+    border-collapse: collapse;
+    width:19.37rem;
+    height:13.5rem;
+}
+.bmi-content{
+    display:flex;
+    gap:10rem;
+    padding: 1rem;
+}
+.chart-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.inputForm form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0.5rem;
+    margin-top: 2.5rem;
+
+}
+.inputForm input,select{
+    width:17.62rem;
+    height: 3rem;
+    padding-left: 1rem;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.inputForm select{
+    padding-right: 1rem;
+}
+.calc-btn{
+    width: 14rem;
+    height: 3.37rem;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border:none;
+    margin-top: 2.5rem;
+}
+
 
 
   
