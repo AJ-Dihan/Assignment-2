@@ -21,6 +21,7 @@ body {
     width: 100%;
     height: 44.6rem;
     
+    
 }
 
 .navigation{
@@ -152,7 +153,7 @@ body {
 } */
 
 /* change habit section */
-.habit, .run, .bmi-content{
+.habit, .run, .bmi-content,.trainer-container{
     width:65.25rem;
     height: 28.18rem;
     margin: 0 auto;
@@ -326,6 +327,64 @@ th{
     color: rgb(255, 255, 255);
     border:none;
     margin-top: 2.5rem;
+}
+
+/* team section */
+.team-about{
+    width: 42rem;
+    height: 7.5rem;
+    margin: 6rem auto;
+    text-align: center;
+}
+.team-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin:1rem;
+}
+.team-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.trainer-container{
+    width: 65rem;
+    height: 36rem;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1rem;
+    padding: 2rem;
+}
+.image-container{
+    position: relative;
+    
+
+}
+.trainer-container img{
+    width: 20.375rem;
+    height: 17rem;
+    border-radius: 18px;
+    filter:brightness(65%);
+    
+}
+.trainer-info{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    /* transform: translate(-145%, 50%); */
+    text-align: start;
+    
+}
+.image-container h5{
+    margin:0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.image-container p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
