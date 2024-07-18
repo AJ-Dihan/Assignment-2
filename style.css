@@ -176,6 +176,52 @@ main{
     border-radius: 50%;
 }
 
+/* run section */
+.run{
+    border-radius: 18px;
+    margin-top: 6rem;
+    background: rgb(34, 34, 34);
+    display:flex;
+}
+.run-content{
+    width: 50%;
+    padding: 3rem;
+}
+.run-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 1rem;
+}
+.run-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1rem;
+}
+.run-btn{
+    width: 14rem;
+    height: 3.37rem;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border:none;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    margin-left:1rem ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.run-image{
+    margin:2rem;
+}
+.run-image img{
+    width:22.87rem;
+    height:20rem;
+    margin-top: 1.8rem;
+    border-radius: 18px;
+background: url(4);
+}
+
 
   
   
